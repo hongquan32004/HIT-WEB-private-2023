@@ -1,0 +1,63 @@
+@font-face {
+    /*thêm phông chữ*/
+    font-family: 'VNM Sans Display Regular';
+    src: url(./font/VNM-Sans-Display-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    font-family: 'VNM Sans Display Regular';
+    /*kiểu chữ*/
+    text-align: center;
+    /*căn giữa*/
+    background: #0313b0;
+    /*màu nền*/
+
+}
+
+.first {
+    padding: 200px 0px 5px;
+    /*căn trên căn dưới */
+    font-size: 25px;
+    /*size chữ */
+    font-weight: bold;
+    /*độ rộng của chữ*/
+
+}
+
+.second {
+    padding: 7px 0px 2px 0px;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.third {
+    display: inline;
+    margin-right: 15%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.four {
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.five {
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.five a:hover {
+    background: rgb(243, 189, 119);
+}
+
+a {
+    margin: 15px;
+}
