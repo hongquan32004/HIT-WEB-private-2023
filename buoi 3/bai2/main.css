@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 220px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --clr1: #ffce9e;
+    --clr2: #d18b47;
+}
+
+.box1 {
+    width: 30px;
+    height: 30px;
+    background-color: var(--clr1);
+}
+
+.box2 {
+    width: 30px;
+    height: 30px;
+    background-color: var(--clr2);
+}

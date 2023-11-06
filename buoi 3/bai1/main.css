@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contener {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.box {
+    background-color: orange;
+    width: 35px;
+    height: 35px;
+}
+
+.box4 {
+    background-color: orange;
+    width: 35px;
+    height: 35px;
+    margin-top: 70px;
+}
+
+
+.h {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.t,
+.one,
+.four {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
