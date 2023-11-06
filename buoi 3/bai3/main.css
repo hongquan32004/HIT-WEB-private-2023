@@ -166,14 +166,8 @@
     background-color: #ccc;
 }
 
-.face {
-    margin-left: 20px;
-}
-
-.inta {
-    margin-left: 20px;
-}
-
+.face,
+.inta,
 .git {
     margin-left: 20px;
 }
