@@ -93,12 +93,12 @@
 .seven1-text h3 {
     display: flex;
     justify-content: center;
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--font1);
     font-weight: 600;
 }
 
 .seven1-text p {
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--font1);
     font-weight: 400;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .content-middle-text p {
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--font1);
     font-weight: 400;
 }
 
@@ -147,16 +147,16 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .footer-left p:nth-child(1) {
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--font1);
     font-weight: 300;
 }
 
 .footer-left p:nth-child(2) {
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--font1);
     font-weight: 400;
 }
 
