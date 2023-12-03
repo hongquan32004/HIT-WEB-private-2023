@@ -60,13 +60,13 @@ body{
     margin-top: 50px;
 }
 #bn1 > .tx1{
-    margin-left: 500px;
+    text-align: center;
     margin-top: -100px;
     font-size: 30px;
     color: white;
 }
 .tx1-1{
-    padding-left: 200px;
+    text-align: center;
 }
 
 /* content */
@@ -74,19 +74,19 @@ body{
     margin-top: 150px;
 }
 .ctn1,.ctn2{
-    margin-left: 650px;
+   text-align: center;
     font-size: 30px;
     margin-top: 20px;
-    margin-right: 650px;
 }
 .ctn2{
     font-size: 15px;
-    margin-left: 680px;
+    text-align: center;
     font-style: italic;
 }
 .ctn3{
-    margin-left: 300px;
-    margin-right: 300px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-top: 20px;
     font-size: 18px;
 }
@@ -98,10 +98,11 @@ body{
 .ctn4>img,.ctn5>img,.ctn6>img{
     width: 150px;
     height: 150px;
-    margin-right: 90px;
+    text-align: center;
+    padding: 10px;
 }
 .ctn4>p,.ctn5>p,.ctn6>p{
-    margin-left: 60px;
+    text-align: center;
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -116,12 +117,12 @@ body{
 }
 .td1{
     padding-top: 100px;
-    padding-left: 700px;
+    text-align: center;
     font-size: 30px;
 }
 .td2{
     margin-top: 20px;
-    margin-left: 700px;
+    text-align: center;
     font-size: 19px;
     font-style: italic;
     color: antiquewhite;
@@ -138,7 +139,7 @@ body{
     align-items: center;
 }
 .td3>p,.td4>p,.td5>p{
-    margin-left: 20px;
+    padding-left: 20px;
     color: rgb(108, 103, 103);
 }
 .td3>span,.td4>span{
@@ -162,7 +163,7 @@ body{
 .select{
     display: flex;
     margin-top: 50px;
-    margin-left: 450px;
+    padding-left: 450px;
 }
 .td6>img,.td7>img,.td8>img{
     width: 222px;
@@ -230,8 +231,8 @@ body{
     margin-left: 15px;
 }
 .ct3-1,.ct3-2,.ct3-3{
-    margin-left: 370px;
-    margin-right: 180px;
+    padding-left: 370px;
+    padding-right: 180px;
 }
 .ct4vv{
     display: flex;
