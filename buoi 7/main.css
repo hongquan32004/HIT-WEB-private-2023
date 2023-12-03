@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+/* toprow */
+#toprow{
+    display:flex ;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+}
+.t1>a,.t2>a,.t3>a,.t4>a,.t5>a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    line-height: 40px;
+}
+.t1:hover,.t2:hover,.t3:hover,.t4:hover,.t5:hover{
+    background: gray;
+}
+.hover{
+    display: none;
+}
+.t5:hover .hover{
+    position: absolute;
+    top: 100%;
+    display: block;
+    width: 160px;
+    height: 120px;
+    background-color: rgb(202, 199, 199);
+    color: black;
+}
+.t5>.hover>p{
+    padding: 7px;
+}
+.hv1:hover,.hv2:hover,.hv3:hover{
+    background-color: rgb(143, 143, 145);
+}
+.t6{
+    margin-left: 1050px;
+}
+.t6 > i{
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.t6:hover{
+    background: red;
+    width: 40px;
+}
+
+/* banner1 */
+#bn1{
+    margin-top: 50px;
+}
+#bn1 > .tx1{
+    text-align: center;
+    margin-top: -100px;
+    font-size: 30px;
+    color: white;
+}
+.tx1-1{
+    text-align: center;
+}
+
+/* content */
+#content{
+    margin-top: 150px;
+}
+.ctn1,.ctn2{
+   text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.ctn2{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+.ctn3{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.ctn4>img,.ctn5>img,.ctn6>img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+.ctn4>p,.ctn5>p,.ctn6>p{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* TOUR DATES */
+#TD{
+    width: 100%;
+    height: 900px;
+    background: black;
+    margin-top: 70px;
+    color: white;
+}
+.td1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.td2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    color: antiquewhite;
+    margin-bottom: 40px;
+}
+.td3,.td4,.td5{
+    width: 705px;
+    height: 40px;
+    background: white;
+    color: black;
+    border-bottom: 1px solid black;
+    margin-left: 450px;
+    display: flex;
+    align-items: center;
+}
+.td3>p,.td4>p,.td5>p{
+    padding-left: 20px;
+    color: rgb(108, 103, 103);
+}
+.td3>span,.td4>span{
+    margin-left: 25px;
+    width: 70px;
+    height: 25px;
+    background: rgb(247, 90, 90);
+    color: white;
+    padding: 5px;
+}
+.td5>span{
+    margin-left: 570px;
+    width: 25px;
+    height: 25px;
+    background: black;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 19px;
+}
+.select{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 450px;
+}
+.td6>img,.td7>img,.td8>img{
+    width: 222px;
+    height: 200px;
+}
+
+.td6,.td7,.td8{
+    width: 222px;
+    height: 400px;
+    background: white;
+    color: black;
+    margin-right: 20px;
+}
+.td6>p,.td7>p,.td8>p{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.td6-1,.td7-1,.td8-1{
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.td6-1>a,.td7-1>a,.td8-1>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height: 30px;
+}
+.td6-1:hover,.td7-1:hover,.td8-1:hover{
+    background: grey;
+}
+
+/* contact */
+#ct{
+    margin-bottom: 70px;
+}
+.ct1,.ct2{
+    text-align: center;
+}
+.ct1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.ct2{
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(108, 103, 103);
+}
+
+.input{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.ct3-1>i,.ct3-2>i,.ct3-3>i{
+    font-size: 15px;
+}
+.ct3-1>span,.ct3-2>span,.ct3-3>span{
+    font-size: 22px;
+    margin-left: 15px;
+}
+.ct3-1,.ct3-2,.ct3-3{
+    padding-left: 370px;
+    padding-right: 180px;
+}
+.ct4vv{
+    display: flex;
+}
+.ct4-1>.login-form__input,.ct4-2>.login-form__input{
+    width: 170px;
+    height: 40px;
+    margin-right: 20px;
+}
+.ct4-3>.login-form__input{
+    width: 360px;
+    height: 40px;
+    margin-top: 8px;
+}
+.ct4-4{
+    width: 65px;
+    height: 35px;
+    background: black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 295px;
+}
+.ct4-4>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height: 35px;
+}
+.ct4-4:hover{
+    background: grey;
+}
+
+/* Foot */
+#f{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.f1,.f2{
+    text-align: center;
+}
+.f1>i{
+    font-size: 25px;
+    color: gray;
+}
+.f2{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.f2>a{
+    color: gray;
+}
