@@ -61,3 +61,31 @@
     padding-top: 15px;
     padding-left: 5px;
 }
+.menu > .l1 i{
+    margin-left: 80px;
+}
+.menu> .l2 i{
+    margin-left: 60px;
+}
+.menu> .l3 i{
+    margin-left: 25px;
+}
+.menu> .l7 i{
+    margin-left: 16px;
+}
+.menu> .l8 i{
+    margin-left: 87px;
+}
+.menu> .l4 i,.l5 i,.l6 i{
+    margin-left: 32px;
+}
+.menu.l1::before{
+    content: 'Galaxynot4';
+    position: absolute;
+}
+.menu.l1::before:hover{
+    content: 'Galaxynot4';
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
