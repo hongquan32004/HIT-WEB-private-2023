@@ -1,6 +1,6 @@
 function kiemTraSoDoiXung(n) {
-    var chuoiN = n.toString();
-    var chuoiDaoNguoc = chuoiN.split('').reverse().join('');
+    let chuoiN = n.toString();
+    let chuoiDaoNguoc = chuoiN.split('').reverse().join('');
     return chuoiN === chuoiDaoNguoc;
 }
 

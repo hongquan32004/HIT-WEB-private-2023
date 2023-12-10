@@ -1,9 +1,9 @@
 function demSoKyTuTuCuoiCung(s) {
-    var mangs = s.trim().split(/\s+/);
+    let mangs = s.trim().split(/\s+/);
 
-    var tuCuoiCung = mangs[mangs.length - 1].replace(/[,.]$/, '');
+    let tuCuoiCung = mangs[mangs.length - 1].replace(/[,.]$/, '');
 
-    var soKyTu = tuCuoiCung.length;
+    let soKyTu = tuCuoiCung.length;
 
     return soKyTu;
 }
