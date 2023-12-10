@@ -90,8 +90,8 @@ body{
     font-size: 18px;
 }
 .ctn3>p{
-    padding-left: 400px;
-    padding-right: 400px;
+    max-width: 800px;
+   margin: 0 auto;
 }
 .image{
     display: flex;
@@ -171,6 +171,9 @@ body{
 .td6>img,.td7>img,.td8>img{
     width: 222px;
     height: 200px;
+}
+.td6>img:hover,.td7>img:hover,.td8>img:hover{
+    filter: brightness(20%);
 }
 
 .td6,.td7,.td8{
