@@ -7,6 +7,6 @@ function demSoKyTuTuCuoiCung(s) {
 
     return soKyTu;
 }
-
+ 
 console.log(demSoKyTuTuCuoiCung("Hello World"));
 console.log(demSoKyTuTuCuoiCung("HTML, CSS, Javascript, ")); 
